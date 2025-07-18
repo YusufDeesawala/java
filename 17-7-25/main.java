@@ -13,5 +13,5 @@ public class main{
     }
 }
 
-// primitive = int,double,char,boolean
-// refernce = string, array, object
+// primitive = int,double,char,boolean,byte,short,long,float   
+// refernce = string, array, object,class,interface
