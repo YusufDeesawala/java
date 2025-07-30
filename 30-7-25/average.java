@@ -1,0 +1,26 @@
+import java.util.*;
+
+class average{
+    public static double average(double a, double b, double c){
+            return (a + b + c)/3;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the value of a: ");
+        double a = sc.nextInt();
+
+        System.out.print("Enter the value of b: ");
+        double b = sc.nextInt();
+
+        System.out.print("Enter the value of c: ");
+        double c = sc.nextInt();
+
+        double avg = average(a, b, c);
+
+        System.out.println(avg);
+
+        return;
+    }
+}
