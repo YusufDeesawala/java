@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class spiral{
+public class spiral {
 
     public static void printSpiral(int[][] matrix, int rows, int cols) {
         int top = 0, bottom = rows - 1;
@@ -44,6 +44,7 @@ public class spiral{
         System.out.println("Enter the matrix elements:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
+                System.out.print("Element at [" + i + "][" + j + "]: ");
                 matrix[i][j] = scanner.nextInt();
             }
         }
